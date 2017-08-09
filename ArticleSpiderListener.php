@@ -30,7 +30,7 @@ class ArticleSpiderListener
         }
      
      
-        $broker = "219.238.250.46:9092"; 
+        $broker = "xxx.xxx.xxx.xxx:9092"; 
         $kafka = new \RdKafka\Producer();
         $kafka->setLogLevel(LOG_DEBUG);
         $num = $kafka->addBrokers($broker);  
